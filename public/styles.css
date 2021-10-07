@@ -1,0 +1,126 @@
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a.footer-link:link,
+a.footer-link:visited {
+  color: white;
+}
+
+body {
+  background-color: black;
+  background-image: url("https://www.transparenttextures.com/patterns/dimension.png");
+}
+
+.centered {
+  position: relative;
+  top: 35%;
+  left: 11%;
+}
+
+.card-body {
+  padding: 20px !important;
+}
+
+.card-header {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.card-overlay-text {
+  font-size: 4.5vw;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 600;
+  position: absolute;
+  left: 6%;
+}
+.card-title {
+  margin-bottom: 0.5rem;
+  padding: 10px;
+  font-size: 2rem !important;
+}
+
+.carousel {
+  background-color: black;
+}
+
+.custom-logo {
+  margin-right: 10px;
+}
+
+.custom-brand {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.6rem !important;
+  line-height: 2.4rem;
+}
+
+.form-contact {
+  text-align: center;
+  padding: 15%;
+  font-size: 4.5vw;
+  font-family: "Bebas Neue", cursive;
+}
+
+::placeholder {
+  font-size: 20px;
+}
+
+.pricing-container {
+  text-align: center;
+}
+
+.pricing-heading {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.pricing-text {
+  font-size: 1.3rem;
+}
+
+@media (min-width: 1200px) {
+  .carousel-caption h3 {
+    font-size: 4vw !important;
+  }
+
+  .carousel-caption {
+    position: absolute !important;
+    right: 15% !important;
+    bottom: 30% !important;
+    left: 15% !important;
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+    color: #fff !important;
+    text-align: center !important;
+  }
+
+  .card-overlay-text {
+    font-size: 4vw;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 600;
+  }
+
+  .carousel-caption p {
+    font-size: 2vw !important;
+  }
+  .carousel-img {
+    max-width: 55%;
+    margin: auto;
+  }
+
+  .form-area {
+    padding: 1vw !important;
+    margin: 1vw !important;
+    border-style: double !important;
+    border-color: black !important;
+  }
+
+  .card-header {
+    font-size: 1.4vw;
+  }
+
+  .card-overlay-text {
+    left: 12%;
+  }
+}
