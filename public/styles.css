@@ -58,10 +58,13 @@ body {
   font-size: 1.6rem !important;
   line-height: 2.4rem;
 }
+.form {
+  padding-top: 5% !important;
+}
 
 .form-contact {
   text-align: center;
-  padding: 5%;
+  padding: 5% !important;
   font-size: 4.5vw;
   font-family: "Bebas Neue", cursive;
 }
