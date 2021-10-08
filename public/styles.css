@@ -19,6 +19,10 @@ body {
   left: 11%;
 }
 
+.column {
+  padding: 100px;
+}
+
 .card-body {
   padding: 20px !important;
 }
@@ -57,7 +61,7 @@ body {
 
 .form-contact {
   text-align: center;
-  padding: 15%;
+  padding: 5%;
   font-size: 4.5vw;
   font-family: "Bebas Neue", cursive;
 }
@@ -79,7 +83,21 @@ body {
   font-size: 1.3rem;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 750px) {
+  .pricing-style {
+    width: 23.5rem;
+  }
+
+  .splash-sm {
+    height: 28rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .carousel {
+    max-height: 60vw;
+  }
+
   .carousel-caption h3 {
     font-size: 4vw !important;
   }
@@ -105,6 +123,7 @@ body {
     font-size: 2vw !important;
   }
   .carousel-img {
+    max-height: 60vw;
     max-width: 55%;
     margin: auto;
   }
@@ -117,10 +136,14 @@ body {
   }
 
   .card-header {
-    font-size: 1.4vw;
+    font-size: 2rem;
   }
 
   .card-overlay-text {
     left: 12%;
+  }
+
+  .splash {
+    height: 45vw;
   }
 }

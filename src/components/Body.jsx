@@ -5,6 +5,7 @@ function Body() {
   return (
     <Card id="homecard" className="bg-dark text-white">
       <Card.Img
+        className="splash splash-sm"
         src="https://static.roland.com/promos/hybrid_drums_2019/images/hybrid-drums-pop-hero.jpg"
         alt="Card image"
       />
