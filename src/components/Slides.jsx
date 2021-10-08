@@ -11,7 +11,7 @@ function Slides() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Experience</h3>>
+          <h3>Experience</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>

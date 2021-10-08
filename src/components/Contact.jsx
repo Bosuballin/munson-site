@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Form,
-  InputGroup,
-  FormControl,
-  Container,
-  Button,
-  Row,
-  Col,
-} from "react-bootstrap";
+import { Form, Container, Button, Row, Col } from "react-bootstrap";
 
 function Contact() {
   return (

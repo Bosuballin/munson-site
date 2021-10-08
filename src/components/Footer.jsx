@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap/";
 import Drumicon from "../DrumIcon.png";
 
 const date = new Date().getFullYear();
